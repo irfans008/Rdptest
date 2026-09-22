@@ -90,7 +90,7 @@ jobs:
           Write-Host "========================================"
           Write-Host "Address  : $env:TAILSCALE_IP"
           Write-Host "Username : runneradmin"
-          Write-Host "Password : P@ssw0rd!"
+          Write-Host "Password : irfans"
           Write-Host "========================================"
           Write-Host ""
 
