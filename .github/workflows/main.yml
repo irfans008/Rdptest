@@ -22,7 +22,7 @@ jobs:
 
       - name: Configure Runner Admin Password
         run: |
-          $password = ConvertTo-SecureString "irfans" -AsPlainText -Force
+          $password = ConvertTo-SecureString "P@ssw0rd!" -AsPlainText -Force
           Set-LocalUser -Name "runneradmin" -Password $password
 
       - name: Install Tailscale
