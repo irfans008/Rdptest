@@ -95,7 +95,7 @@ jobs:
           Write-Host ""
 
       - name: Keep RDP Alive
-        run: 24/7
+        run: 
           while ($true) {
             Write-Host "[$(Get-Date)] INFINITE RDP is active..."
             Start-Sleep -Seconds 300
